@@ -7,7 +7,9 @@ var applicationModule = angular.module('egyptianNumberSystem'),
 applicationModule.filter('egyptianSummation', function(){
 
    return function(input){
-   		return _.map(input, (item:EgyptianNumberSystem.IRationalNumber) => item.numerator + '/' + item.denominator).join(' + ');
+   		return _.isArray(input) ?
+   			_.map(input, (item:EgyptianNumberSystem.IRationalNumber) => item.numerator + '/' + item.denominator).join(' + ')
+   			: '...is too much';
    }
 
 });

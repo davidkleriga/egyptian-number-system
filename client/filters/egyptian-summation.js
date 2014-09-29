@@ -2,8 +2,8 @@ var applicationModule = angular.module('egyptianNumberSystem'), _ = require('und
 
 applicationModule.filter('egyptianSummation', function () {
     return function (input) {
-        return _.map(input, function (item) {
+        return _.isArray(input) ? _.map(input, function (item) {
             return item.numerator + '/' + item.denominator;
-        }).join(' + ');
+        }).join(' + ') : '...is to much';
     };
 });
