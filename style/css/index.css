@@ -1,0 +1,264 @@
+a,
+a:visited {
+  text-decoration: none;
+  color: #ccc;
+  position: relative;
+}
+a:hover {
+  text-decoration: underline;
+}
+div,
+p,
+body,
+ul,
+li,
+h1,
+h2,
+h3 {
+  display: block;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+ul {
+  list-style: none;
+}
+h1,
+h2,
+h3 {
+  text-transform: uppercase;
+  font-weight: normal;
+}
+abbr {
+  border: none;
+}
+body {
+  position: relative;
+  background: #000000 url('images/cote.png') repeat-y 50% 0%;
+  text-align: center;
+  z-index: 1;
+}
+.page-wrapper {
+  position: relative;
+  width: 450px;
+  margin: 0 auto;
+  padding: 230px 0 350px 0;
+  font-size: 0.8em;
+  font-family: arial, sans serif;
+  background-color: #313131;
+  color: #b9b9b9;
+  text-align: left;
+  background-image: url('images/ecran.gif');
+  z-index: 3;
+}
+p {
+  font-variant: small-caps;
+}
+.intro {
+  text-align: center;
+}
+h1,
+h2 {
+  width: 450px;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+h1 {
+  height: 258px;
+  background: url('images/titre.png') no-repeat 50% 0;
+}
+.preamble h3 {
+  margin-top: 1.5em;
+  font-size: 80%;
+}
+.preamble p {
+  width: 80%;
+  min-height: 50px;
+  font-size: 95%;
+  margin: 0 auto;
+}
+.explanation {
+  float: left;
+  width: 98%;
+}
+.explanation h3 {
+  font-size: 125%;
+  font-weight: bold;
+  text-align: right;
+  margin: 0 5% 0 10%;
+  margin-bottom: -1.1em;
+}
+.explanation p {
+  line-height: 4em;
+  text-align: right;
+  margin: 0 5% 0 10%;
+  font-variant: normal;
+  text-transform: capitalize;
+  padding-bottom: 4em;
+}
+.sidebar,
+.requirements {
+  margin: 10px;
+}
+.requirements {
+  float: right;
+  width: 98%;
+  margin: 1%;
+  text-align: center;
+}
+.requirements h3 {
+  font-size: 125%;
+  font-weight: bold;
+  margin-bottom: 1.2em;
+}
+.requirements p {
+  width: 30%;
+  margin-left: 1%;
+  line-height: 2em;
+  font-weight: bold;
+  font-variant: normal;
+  text-transform: uppercase;
+  float: left;
+}
+.sidebar {
+  clear: both;
+}
+.reference-selection .image,
+.test-cases .image {
+  position: relative;
+  min-width: 200px;
+  min-height: 180px;
+  width: auto;
+  height: auto;
+  margin: 32px 64px;
+  background-repeat: no-repeat;
+  opacity: 0.3;
+}
+.reference-selection .image.hieroglyphics-1,
+.test-cases .image.hieroglyphics-1 {
+  background-image: url(images/hieroglyphic-numbers.jpg);
+}
+.reference-selection .image.hieroglyphics-2,
+.test-cases .image.hieroglyphics-2 {
+  background-image: url(images/egyptian-fractions-1.png);
+}
+.reference-selection .image.hieroglyphics-3,
+.test-cases .image.hieroglyphics-3 {
+  background-image: url(images/egyptian-fractions-2.jpg);
+  height: 200px;
+  margin: 32px 100px;
+}
+.reference-selection h3,
+.test-cases h3 {
+  padding-top: 7em;
+  font-size: 125%;
+  font-weight: bold;
+  text-align: center;
+  clear: both;
+}
+.reference-selection ul,
+.test-cases ul {
+  margin: 0px;
+  padding: 0px;
+}
+.reference-selection ul li,
+.test-cases ul li {
+  position: relative;
+  width: 90%;
+  margin: .777em auto;
+  padding: 0;
+  color: white;
+  border-bottom: 2px dashed #b9b9b9;
+  letter-spacing: 4px;
+}
+.reference-selection ul li.right,
+.test-cases ul li.right {
+  font-weight: 400;
+}
+.reference-selection ul li.wrong,
+.test-cases ul li.wrong {
+  color: darkred;
+  font-weight: 700;
+}
+.reference-selection ul li a,
+.test-cases ul li a {
+  position: relative;
+  top: 5px;
+  padding: 0 4px 0 0;
+  font-weight: bold;
+  text-transform: uppercase;
+  background: url('images/ecran.gif');
+}
+.reference-selection ul li a.name,
+.test-cases ul li a.name {
+  position: absolute;
+  right: -1px;
+  padding: 0 0 0 4px;
+}
+.extra1 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 23.2% !important;
+  height: 102px;
+  min-height: 102px;
+  max-height: 230px;
+  z-index: 2;
+}
+.extra1::after {
+  content: " ";
+  display: block;
+  position: absolute;
+  bottom: -198px;
+  left: 0;
+  width: 100%;
+  height: 428px;
+  background: url('images/haut1.png') no-repeat 50% 100%;
+}
+.extra2 {
+  position: fixed !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 23.2% !important;
+  height: 102px;
+  min-height: 102px;
+  max-height: 230px;
+  background: url('images/haut2.png') no-repeat 50% 100%;
+  z-index: 4;
+}
+.extra3 {
+  position: fixed !important;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 30% !important;
+  height: 110px;
+  min-height: 110px;
+  max-height: 318px;
+  background: url('images/bas.png') no-repeat 50% 0%;
+  z-index: 4;
+}
+html body .unit-fraction-converter {
+  position: relative;
+  height: 200px;
+  margin: 20px 15px;
+  border: 1px dotted gray;
+}
+html body .unit-fraction-converter input,
+html body .unit-fraction-converter p {
+  background-color: transparent;
+  color: white;
+  font-weight: 600;
+  outline: none;
+  border: none;
+  width: 90%;
+  text-align: center;
+  margin: 0px 15px;
+  padding: 4px;
+  min-height: 60px;
+}

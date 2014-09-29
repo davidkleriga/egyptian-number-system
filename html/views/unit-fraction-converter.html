@@ -1,0 +1,15 @@
+<section class='unit-fraction-converter'
+	ng-controller="unitFractionsController">
+	<input type='number' min='1' required placeholder='numerator'
+		ng-change='calculate(rationalNumber)'
+		ng-model='rationalNumber.numerator'/>
+		
+	<hr />
+
+	<input type='number' min='1' required placeholder='denominator'
+		ng-change='calculate(rationalNumber)'
+		ng-model='rationalNumber.denominator' />
+
+	<p>{{formattedSolution }}</p>
+
+</section>

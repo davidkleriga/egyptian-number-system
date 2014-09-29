@@ -1,0 +1,38 @@
+{
+  "name": "egyptian-number-system",
+  "version": "0.0.0",
+  "description": "hieroglyphic unit fraction converter",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt run-tests"
+  },
+  "keywords": [
+    "egyptian",
+    "number-system",
+    "hieroglyphic",
+    "unit-fraction"
+  ],
+  "author": "David Kleriga (DK)",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "^1.2.23",
+    "angular-route": "^1.2.17-build.163.1",
+    "bootstrap": "^3.2.0",
+    "browserify-middleware": "^3.0.1",
+    "connect": "^3.2.0",
+    "express": "^4.9.4",
+    "jquery": "^2.1.1",
+    "q": "^1.0.1",
+    "string": "^2.1.0",
+    "underscore": "^1.7.0",
+    "ym-modernizr": "^3.0.0-pre"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-concurrent": "^1.0.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-exec": "^0.4.6",
+    "less": "^1.7.5",
+    "typescript": "^1.0.1"
+  }
+}
