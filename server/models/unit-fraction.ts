@@ -7,8 +7,6 @@ var _ = require('underscore'),
 
 	String = require('string');
 
-import EgyptianNumberSystem = require('../../types/egyptian-number-system');
-
 function isFunctionalNumber(value) {
 	if ( isNaN(value) || value == 0 ) return false;
 	return true;

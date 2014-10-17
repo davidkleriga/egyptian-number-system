@@ -1,5 +1,4 @@
-
-import EgyptianNumberSystem = require('../../types/egyptian-number-system');
+/// <reference path="../../types/references.d.ts" />
 
 var applicationModule = angular.module('egyptianNumberSystem'),
    _:UnderscoreStatic = require('underscore');

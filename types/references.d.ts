@@ -7,4 +7,4 @@
 ///<reference path='./vendor/express/express.d.ts' />
 
 
-///<reference path='egyptian-number-system' />
+///<reference path='./egyptian-number-system.d.ts' />

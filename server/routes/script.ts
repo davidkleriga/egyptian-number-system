@@ -1,7 +1,5 @@
 ///<reference path='../../types/references.d.ts' />
 
-import EgyptianNumberSystem = require('../../types/egyptian-number-system');
-
 var _ = require('underscore'),
 	path = require('path'),
 	express = require('express'),

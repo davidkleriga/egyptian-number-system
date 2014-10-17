@@ -1,0 +1,23 @@
+CACHE MANIFEST
+
+CACHE:
+
+
+/style/css/index.css
+/style/images/*.jpg
+/style/images/*.png
+
+/public/modernizr.js
+/index.js
+
+/html/templates/*.html
+/html/views/*.html
+
+
+
+NETWORK:
+/unit-fraction-conversions/*
+
+
+FALLBACK:
+/* /public/offline.html
