@@ -1,5 +1,7 @@
+import EgyptianNumberSystem = require('../../types/egyptian-number-system');
 
-var applicationModule = angular.module('egyptianNumberSystem');
+var applicationModule = angular.module('egyptianNumberSystem'),
+   _:UnderscoreStatic = require('underscore');
 
 
 applicationModule.controller('unitFractionsController', function($scope, $http, $filter){
@@ -12,7 +14,7 @@ applicationModule.controller('unitFractionsController', function($scope, $http, 
     $scope.$watch('rationalNumber', $scope.calculate, true);
 
     $scope.calculate = function(rationalNumber = $scope.rationalNumber) {
-    	console.log('calculating', rationalNumber);
+    	// console.log('calculating', rationalNumber);
 
     	$http.get('/unit-fraction-conversions/' + rationalNumber.numerator + '/' + rationalNumber.denominator)
     		.then( (response) => response.data )
