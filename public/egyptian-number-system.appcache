@@ -4,19 +4,24 @@ CACHE:
 
 
 /style/css/index.css
-/style/images/*.jpg
-/style/images/*.png
-
+/style/css/images/cote.png
+/style/css/images/ecran.gif
+/style/css/images/hieroglyphic-numbers.jpg
+/style/css/images/egyptian-fractions-1.png
+/style/css/images/egyptian-fractions-2.jpg
+/style/css/images/haut1.png
+/style/css/images/haut2.png
+/style/css/images/bas.png
+/style/css/images/titre.png
 /public/modernizr.js
 /index.js
-
-/html/templates/*.html
-/html/views/*.html
+/html/templates/index.html
+/html/views/unit-fraction-converter.html
 
 
 
 NETWORK:
-/unit-fraction-conversions/*
+*
 
 
 FALLBACK:

@@ -23,6 +23,6 @@ applicationModule.controller('unitFractionsController', function($scope:Egyptian
             .then( () => rationalNumber.unitFractionSummation);
             // .then( (data) => console.log(data))
     }
-
+    
     _.defer($scope.calculate);
 });
