@@ -11,3 +11,7 @@ build:
 
 run: 
 	node index
+
+
+development: ( watch + rebuild segments ) 
+	grunt

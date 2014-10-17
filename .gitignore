@@ -2,3 +2,5 @@ client/**/*.js
 client/*.js
 
 style/css/*.css
+
+*.log
