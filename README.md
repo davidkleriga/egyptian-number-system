@@ -1,17 +1,21 @@
 egyptian-number-system
 ======================
 
-git clone https://github.com/davidkleriga/egyptian-number-system.git
+
+``git clone https://github.com/davidkleriga/egyptian-number-system.git``
 
 cd egyptian-number-system
 
 build:
-	make
+	
+``make``
 
 
 run: 
-	node index
+	
+``node index``
 
 
 development: ( watch + rebuild segments ) 
-	grunt
+	
+``grunt``
